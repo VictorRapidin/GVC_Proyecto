@@ -5,5 +5,17 @@
         <group>
             <file>file:/C:/Users/porqu/OneDrive/Escritorio/GVC_Proyecto-main/GVC_Proyecto-main/ProyectoGVC/src/Vista/MenuPrincipal.java</file>
         </group>
+        <group name="actividad 12">
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Modelo/ClaseActividad.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Modelo/ClaseCampania.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Modelo/ClaseIncidencias.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Modelo/ClaseMateriales.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Modelo/ClaseUbicaciones.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Modelo/ClaseUsuario.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Modelo/ConexionBD.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Vista/Login.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Vista/MenuPrincipal.java</file>
+            <file>file:/C:/Users/chane/Downloads/GVC_Proyecto-main%20(1)/GVC_Proyecto-main/ProyectoGVC/src/Controlador/ControladorUsuario.java</file>
+        </group>
     </open-files>
 </project-private>
