@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="234" max="-2" attributes="0"/>
+                      <Component id="lblNombreUsuario" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jlbTipoIncidencias" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                  <Component id="cmbTipo" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jlbDescripcion" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jbnAgregar" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jbnRegresar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jScrollPane1" min="-2" pref="360" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                      <Component id="JLBtITULO" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="238" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="lblNombreUsuario" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="94" max="32767" attributes="0"/>
+              <Component id="JLBtITULO" min="-2" pref="44" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbTipoIncidencias" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jlbDescripcion" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbnRegresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbnAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="JLBtITULO">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="16" green="bf" red="56" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="REGISTRO DE INCIDENCIAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbTipoIncidencias">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="16" green="bf" red="56" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tipo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbTipo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="105">
+            <StringItem index="0" value="2FAM (2/A FASE A MUPI)"/>
+            <StringItem index="1" value="2FAP (2/A FASE A POSTES)"/>
+            <StringItem index="2" value="AHS (ACRILICO HUMO SUELTO)"/>
+            <StringItem index="3" value="A (APAGADO)"/>
+            <StringItem index="4" value="AT (ATERRIZADO)"/>
+            <StringItem index="5" value="CAHR (CAMBIAR ACRILICO HUMO ROTO)"/>
+            <StringItem index="6" value="CAHRZ (CAMBIAR ACRILICO HUMO ROTO ZAP.)"/>
+            <StringItem index="7" value="BAL (CAMBIAR BALANCIN)"/>
+            <StringItem index="8" value="CBAL (CAMBIAR BALASTRA)"/>
+            <StringItem index="9" value="CB (CAMBIAR BANCA)"/>
+            <StringItem index="10" value="CBZP (CAMBIAR BANCA MOD. ZAP.)"/>
+            <StringItem index="11" value="CAPCH (CAMBIAR CAPOTA CHOCADA)"/>
+            <StringItem index="12" value="CAZXG (CAMBIAR CAPOTA MOD. ZAPOPAN POR MOD. GDL)"/>
+            <StringItem index="13" value="CCH (CAMBIAR CHUPON)"/>
+            <StringItem index="14" value="CDR (CAMBIAR DIFUSOR ROTO)"/>
+            <StringItem index="15" value="CDRZP (CAMBIAR DIFUSOR ROTO MOD. ZAPOPAN)"/>
+            <StringItem index="16" value="CETR (CAMBIAR ESPARRAGO Y TUERCA REMACHE)"/>
+            <StringItem index="17" value="CMP (CAMBIAR MARCO PERIMETRAL)"/>
+            <StringItem index="18" value="CMEZC (CAMBIAR MARCO ELEC.ZAP.CHI.)"/>
+            <StringItem index="19" value="CMEZG (CAMBIAR MARCO ELEC.ZAP.GDE.)"/>
+            <StringItem index="20" value="CME (CAMBIAR MARCO ELECTRICO)"/>
+            <StringItem index="21" value="CMEZG (CAMBIAR MARCO ELECTRICO MOD.ZAP.GDE.)"/>
+            <StringItem index="22" value="CM (CAMBIAR MUPI)"/>
+            <StringItem index="23" value="CPIT (CAMBIAR PIEDRA INFERIOR POR TAPA)"/>
+            <StringItem index="24" value="CPS (CAMBIAR PIEDRA SUPERIOR)"/>
+            <StringItem index="25" value="CPST (CAMBIAR PIEDRA SUPERIOR POR TAPA)"/>
+            <StringItem index="26" value="CP (CAMBIAR POSTE)"/>
+            <StringItem index="27" value="CTI (CAMBIAR TAPA INFERIOR)"/>
+            <StringItem index="28" value="CTS (CAMBIAR TAPA SUPERIOR)"/>
+            <StringItem index="29" value="CTR (CAMBIAR TUERCAS REMACHES)"/>
+            <StringItem index="30" value="CVD (CAMBIAR VENTANA POR DESGASTE)"/>
+            <StringItem index="31" value="CMEZC (CAMBIAR MARCO ELECTRICO MOD.ZAP.CHI.)"/>
+            <StringItem index="32" value="CAPCHZ (CAPOTA CHOCADA MOD. ZAPOPAN)"/>
+            <StringItem index="33" value="CHL (CHECAR LINEAS)"/>
+            <StringItem index="34" value="COCH (COBERTIZO CHOCADO)"/>
+            <StringItem index="35" value="CTRM (COLOCAR TUERCA REMACHE P/M.E.)"/>
+            <StringItem index="36" value="CTRV (COLOCAR TUERCA REMACHE EN VENTANA)"/>
+            <StringItem index="37" value="CPLL (CONTENEDOR DE PILAS LLENO)"/>
+            <StringItem index="38" value="FA (FALTA ANTEPECHO)"/>
+            <StringItem index="39" value="FB (FALTA BISAGRA)"/>
+            <StringItem index="40" value="FCAP (FALTA CAPOTA)"/>
+            <StringItem index="41" value="FCH (FALTA CHUPON)"/>
+            <StringItem index="42" value="FCOB (FALTA COBERTIZO)"/>
+            <StringItem index="43" value="FAH (FALTA CRILICO HUMO)"/>
+            <StringItem index="44" value="FD (FALTA DIFUSOR)"/>
+            <StringItem index="45" value="FFT (FALTA FOTOCELDA)"/>
+            <StringItem index="46" value="FMU (FALTA MUPI)"/>
+            <StringItem index="47" value="FPB (FALTA PARABUS)"/>
+            <StringItem index="48" value="FPI (FALTA PIEDRA INFERIOR)"/>
+            <StringItem index="49" value="FPS (FALTA PIEDRA SUPERIOR)"/>
+            <StringItem index="50" value="FRC (FALTA REMATE CORTO)"/>
+            <StringItem index="51" value="FRL (FALTA REMATE LARGO)"/>
+            <StringItem index="52" value="FRM (FALTA REMATE MEDIANO)"/>
+            <StringItem index="53" value="FTI (FALTA TAPA INFERIOR)"/>
+            <StringItem index="54" value="FTS (FALTA TAPA SUPERIOR)"/>
+            <StringItem index="55" value="FCH (FALTAN CHUPONES)"/>
+            <StringItem index="56" value="FE (FALTAN EJES DE AMORTIGUADOR)"/>
+            <StringItem index="57" value="FL (FALTAN LENGUETAS)"/>
+            <StringItem index="58" value="LS (LENG&#xdc;ETA SUELTA)"/>
+            <StringItem index="59" value="MES (MARCO ELECTICO SUELTO)"/>
+            <StringItem index="60" value="MCAG (MONTAR CAPOTA MOD. GDL)"/>
+            <StringItem index="61" value="MCAZ (MONTAR CAPOTA MOD. ZAP.)"/>
+            <StringItem index="62" value="MC (MONTAR COBERTIO)"/>
+            <StringItem index="63" value="MMG (MONTAR MUPI MOD. GDL.)"/>
+            <StringItem index="64" value="MMZ (MONTAR MUPI MOD. ZAPOPAN)"/>
+            <StringItem index="65" value="MPCG (MONTAR PARABUS COMPLETO MOD. GDL.)"/>
+            <StringItem index="66" value="MPCZ (MONTAR PARABUS COMPLETO MOD. ZAP.)"/>
+            <StringItem index="67" value="MCH (MUPI CHOCADO)"/>
+            <StringItem index="68" value="OCU (OCULTAR ACOMETIDA)"/>
+            <StringItem index="69" value="PAR (PARCIAL (LUZ))"/>
+            <StringItem index="70" value="PIR (PIEDRA INFERIOR ROTA)"/>
+            <StringItem index="71" value="P (PODA)"/>
+            <StringItem index="72" value="PESP (PONER ESPARRAGO)"/>
+            <StringItem index="73" value="PTR (PONER PTR)"/>
+            <StringItem index="74" value="PG (POSTE GOLPEADO)"/>
+            <StringItem index="75" value="PRE (PRENDIDO)"/>
+            <StringItem index="76" value="RECP (RECOLECTAR PILAS)"/>
+            <StringItem index="77" value="RME (REMACHAR MARCO ELECTRICO)"/>
+            <StringItem index="78" value="RPME (REMACHAR PLACA DEL MARCO ELECTRICO)"/>
+            <StringItem index="79" value="RAC (REPAPAR ACOMETIDA)"/>
+            <StringItem index="80" value="RM (RETIRAR MUPI)"/>
+            <StringItem index="81" value="RPS (RETIRAR PILAS DEL SISTEMA)"/>
+            <StringItem index="82" value="RL (REUBICAR LETRERO)"/>
+            <StringItem index="83" value="SG (SERVICIO GENERAL (LEVAS, CERRAR MUEBLE))"/>
+            <StringItem index="84" value="SB (SOLDAR BANCA)"/>
+            <StringItem index="85" value="SCM (SOLDAR COPA DE MUPI)"/>
+            <StringItem index="86" value="STI (SOLDAR TAPA INFERIOR)"/>
+            <StringItem index="87" value="STS (SOLDAR TAPA SUPERIOR)"/>
+            <StringItem index="88" value="TIS (TAPA INFERIOR SUELTA)"/>
+            <StringItem index="89" value="TSS (TAPA SUPERIOR SUELTA)"/>
+            <StringItem index="90" value="VC (VENTANA CAIDA)"/>
+            <StringItem index="91" value="VA (VENTANA CON ACIDO)"/>
+            <StringItem index="92" value="VAZPC (VENTANA CON ACIDO MOD.ZAP.CHI.)"/>
+            <StringItem index="93" value="VAZPG (VENTANA CON ACIDO MOD.ZAP.GDE.)"/>
+            <StringItem index="94" value="VD (VENTANA DESPEGADA MOD. GDL)"/>
+            <StringItem index="95" value="VDZPC (VENTANA DESPEGADA MOD. ZAP. CHI.)"/>
+            <StringItem index="96" value="VDZPG (VENTANA DESPEGADA MOD. ZAP. GDE.)"/>
+            <StringItem index="97" value="VFZPC (VENTANA FRISIADA MOD. ZAP. CHI.)"/>
+            <StringItem index="98" value="VFZPG (VENTANA FRISIADA MOD. ZAP. GDE.)"/>
+            <StringItem index="99" value="VF (VENTANA FRISIADA MOD. GDL.)"/>
+            <StringItem index="100" value="VR (VENTANA ROTA)"/>
+            <StringItem index="101" value="VRZPC (VENTANA ROTA MOD. ZAP. CHICA)"/>
+            <StringItem index="102" value="VRZPG (VENTANA ROTA MOD. ZAP. GDE.)"/>
+            <StringItem index="103" value="VS (VENTANA SUELTA)"/>
+            <StringItem index="104" value="VRS (VIDRIOS EN EL SISTEMA)"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbDescripcion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="16" green="bf" red="56" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Descripcion:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="JtaDescripcion">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JtaDescripcionKeyPressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jbnAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agregar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbnAgregarActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbnAgregarKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbnRegresar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbnRegresarActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbnRegresarKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombreUsuario">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Datos de la Actividad">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder>
+                  <Color PropertyName="color" blue="16" green="bf" red="56" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="lblUsuarioReporta" max="32767" attributes="0"/>
+                      <Component id="txtActividadInfo" pref="150" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="txtCodigoInfo" pref="149" max="32767" attributes="0"/>
+                      <Component id="lblDireccionInfo" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="53" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtActividadInfo" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="txtCodigoInfo" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="45" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblUsuarioReporta" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="lblDireccionInfo" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblUsuarioReporta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Semibold" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtActividadInfo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Semibold" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtCodigoInfo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Semibold" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDireccionInfo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Semibold" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
